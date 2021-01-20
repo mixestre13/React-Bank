@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.logo{
+    width: 20%;
+    height: 20%;
+}
+
+.bor{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+/* Dept container */
+
+.debitContainer{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.DebitItem{
+    color:black;
+    text-align: left;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+/* Credit container */
+
+.CreditContainer{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.CreditItem{
+    color:black;
+    text-align: left;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/* Link Container */
+
+.linkContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.linkItem{
+    display: block;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    color: black;
+    
+}
+
+.marginHelper{
+    margin-top: 100px;
+}
+
+.textDecor{
+    text-decoration: none;
+}
+
+/* Sign In */
+
+.marginHelperSmall{
+    margin: 10px;
+}
